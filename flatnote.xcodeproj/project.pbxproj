@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1132901BDF2F800076128E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11328F1BDF2F800076128E /* AppDelegate.swift */; };
+		AA1132921BDF2F800076128E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1132911BDF2F800076128E /* MainViewController.swift */; };
+		AA1132951BDF2F800076128E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1132931BDF2F800076128E /* Main.storyboard */; };
+		AA1132981BDF2F800076128E /* flatnote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA1132961BDF2F800076128E /* flatnote.xcdatamodeld */; };
+		AA11329A1BDF2F800076128E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1132991BDF2F800076128E /* Assets.xcassets */; };
+		AA11329D1BDF2F800076128E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA11329B1BDF2F800076128E /* LaunchScreen.storyboard */; };
+		AA1132A81BDF2F800076128E /* flatnoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1132A71BDF2F800076128E /* flatnoteTests.swift */; };
+		AA1132B31BDF2F800076128E /* flatnoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1132B21BDF2F800076128E /* flatnoteUITests.swift */; };
+		AA1132C41BE059E80076128E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1132C31BE059E80076128E /* GameViewController.swift */; };
+		AA1132C61BE05B290076128E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1132C51BE05B290076128E /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA1132A41BDF2F800076128E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1132841BDF2F800076128E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA11328B1BDF2F800076128E;
+			remoteInfo = flatnote;
+		};
+		AA1132AF1BDF2F800076128E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1132841BDF2F800076128E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA11328B1BDF2F800076128E;
+			remoteInfo = flatnote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA11328C1BDF2F800076128E /* flatnote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flatnote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA11328F1BDF2F800076128E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA1132911BDF2F800076128E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AA1132941BDF2F800076128E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA1132971BDF2F800076128E /* flatnote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = flatnote.xcdatamodel; sourceTree = "<group>"; };
+		AA1132991BDF2F800076128E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA11329C1BDF2F800076128E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA11329E1BDF2F800076128E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1132A31BDF2F800076128E /* flatnoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flatnoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1132A71BDF2F800076128E /* flatnoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flatnoteTests.swift; sourceTree = "<group>"; };
+		AA1132A91BDF2F800076128E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1132AE1BDF2F800076128E /* flatnoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flatnoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1132B21BDF2F800076128E /* flatnoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flatnoteUITests.swift; sourceTree = "<group>"; };
+		AA1132B41BDF2F800076128E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1132C31BE059E80076128E /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AA1132C51BE05B290076128E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1132891BDF2F800076128E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1132A01BDF2F800076128E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1132AB1BDF2F800076128E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1132831BDF2F800076128E = {
+			isa = PBXGroup;
+			children = (
+				AA11328E1BDF2F800076128E /* flatnote */,
+				AA1132A61BDF2F800076128E /* flatnoteTests */,
+				AA1132B11BDF2F800076128E /* flatnoteUITests */,
+				AA11328D1BDF2F800076128E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA11328D1BDF2F800076128E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA11328C1BDF2F800076128E /* flatnote.app */,
+				AA1132A31BDF2F800076128E /* flatnoteTests.xctest */,
+				AA1132AE1BDF2F800076128E /* flatnoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA11328E1BDF2F800076128E /* flatnote */ = {
+			isa = PBXGroup;
+			children = (
+				AA11328F1BDF2F800076128E /* AppDelegate.swift */,
+				AA1132C01BE059BB0076128E /* Views */,
+				AA1132991BDF2F800076128E /* Assets.xcassets */,
+				AA11329B1BDF2F800076128E /* LaunchScreen.storyboard */,
+				AA11329E1BDF2F800076128E /* Info.plist */,
+				AA1132961BDF2F800076128E /* flatnote.xcdatamodeld */,
+			);
+			path = flatnote;
+			sourceTree = "<group>";
+		};
+		AA1132A61BDF2F800076128E /* flatnoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA1132A71BDF2F800076128E /* flatnoteTests.swift */,
+				AA1132A91BDF2F800076128E /* Info.plist */,
+			);
+			path = flatnoteTests;
+			sourceTree = "<group>";
+		};
+		AA1132B11BDF2F800076128E /* flatnoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA1132B21BDF2F800076128E /* flatnoteUITests.swift */,
+				AA1132B41BDF2F800076128E /* Info.plist */,
+			);
+			path = flatnoteUITests;
+			sourceTree = "<group>";
+		};
+		AA1132C01BE059BB0076128E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA1132931BDF2F800076128E /* Main.storyboard */,
+				AA1132C31BE059E80076128E /* GameViewController.swift */,
+				AA1132911BDF2F800076128E /* MainViewController.swift */,
+				AA1132C51BE05B290076128E /* SettingsViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA11328B1BDF2F800076128E /* flatnote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1132B71BDF2F800076128E /* Build configuration list for PBXNativeTarget "flatnote" */;
+			buildPhases = (
+				AACBFBBD1BF94AFD0042C651 /* Update Build Number */,
+				AA1132881BDF2F800076128E /* Sources */,
+				AA1132891BDF2F800076128E /* Frameworks */,
+				AA11328A1BDF2F800076128E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flatnote;
+			productName = flatnote;
+			productReference = AA11328C1BDF2F800076128E /* flatnote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA1132A21BDF2F800076128E /* flatnoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1132BA1BDF2F800076128E /* Build configuration list for PBXNativeTarget "flatnoteTests" */;
+			buildPhases = (
+				AA11329F1BDF2F800076128E /* Sources */,
+				AA1132A01BDF2F800076128E /* Frameworks */,
+				AA1132A11BDF2F800076128E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1132A51BDF2F800076128E /* PBXTargetDependency */,
+			);
+			name = flatnoteTests;
+			productName = flatnoteTests;
+			productReference = AA1132A31BDF2F800076128E /* flatnoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA1132AD1BDF2F800076128E /* flatnoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1132BD1BDF2F800076128E /* Build configuration list for PBXNativeTarget "flatnoteUITests" */;
+			buildPhases = (
+				AA1132AA1BDF2F800076128E /* Sources */,
+				AA1132AB1BDF2F800076128E /* Frameworks */,
+				AA1132AC1BDF2F800076128E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1132B01BDF2F800076128E /* PBXTargetDependency */,
+			);
+			name = flatnoteUITests;
+			productName = flatnoteUITests;
+			productReference = AA1132AE1BDF2F800076128E /* flatnoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1132841BDF2F800076128E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Steven Zazeski";
+				TargetAttributes = {
+					AA11328B1BDF2F800076128E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					AA1132A21BDF2F800076128E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AA11328B1BDF2F800076128E;
+					};
+					AA1132AD1BDF2F800076128E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AA11328B1BDF2F800076128E;
+					};
+				};
+			};
+			buildConfigurationList = AA1132871BDF2F800076128E /* Build configuration list for PBXProject "flatnote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1132831BDF2F800076128E;
+			productRefGroup = AA11328D1BDF2F800076128E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA11328B1BDF2F800076128E /* flatnote */,
+				AA1132A21BDF2F800076128E /* flatnoteTests */,
+				AA1132AD1BDF2F800076128E /* flatnoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA11328A1BDF2F800076128E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA11329D1BDF2F800076128E /* LaunchScreen.storyboard in Resources */,
+				AA11329A1BDF2F800076128E /* Assets.xcassets in Resources */,
+				AA1132951BDF2F800076128E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1132A11BDF2F800076128E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1132AC1BDF2F800076128E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AACBFBBD1BF94AFD0042C651 /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 1. Select: your Target in Xcode\n# 2. Select: Build Phases Tab\n# 3. Select: Add Build Phase -> Add Run Script\n# 4. Paste code below in to new \"Run Script\" section\n# 5. Drag the \"Run Script\" below \"Target dependencies\"\n\nbuildNumber=$(date +%Y-%m-%d %H.%M)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1132881BDF2F800076128E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1132C41BE059E80076128E /* GameViewController.swift in Sources */,
+				AA1132921BDF2F800076128E /* MainViewController.swift in Sources */,
+				AA1132901BDF2F800076128E /* AppDelegate.swift in Sources */,
+				AA1132C61BE05B290076128E /* SettingsViewController.swift in Sources */,
+				AA1132981BDF2F800076128E /* flatnote.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA11329F1BDF2F800076128E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1132A81BDF2F800076128E /* flatnoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1132AA1BDF2F800076128E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1132B31BDF2F800076128E /* flatnoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA1132A51BDF2F800076128E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA11328B1BDF2F800076128E /* flatnote */;
+			targetProxy = AA1132A41BDF2F800076128E /* PBXContainerItemProxy */;
+		};
+		AA1132B01BDF2F800076128E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA11328B1BDF2F800076128E /* flatnote */;
+			targetProxy = AA1132AF1BDF2F800076128E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA1132931BDF2F800076128E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1132941BDF2F800076128E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA11329B1BDF2F800076128E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA11329C1BDF2F800076128E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA1132B51BDF2F800076128E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1132B61BDF2F800076128E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA1132B81BDF2F800076128E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flatnote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zazeski.flatnote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA1132B91BDF2F800076128E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flatnote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zazeski.flatnote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA1132BB1BDF2F800076128E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flatnoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zazeski.flatnoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flatnote.app/flatnote";
+			};
+			name = Debug;
+		};
+		AA1132BC1BDF2F800076128E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flatnoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zazeski.flatnoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flatnote.app/flatnote";
+			};
+			name = Release;
+		};
+		AA1132BE1BDF2F800076128E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flatnoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zazeski.flatnoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flatnote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA1132BF1BDF2F800076128E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flatnoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zazeski.flatnoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flatnote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1132871BDF2F800076128E /* Build configuration list for PBXProject "flatnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1132B51BDF2F800076128E /* Debug */,
+				AA1132B61BDF2F800076128E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1132B71BDF2F800076128E /* Build configuration list for PBXNativeTarget "flatnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1132B81BDF2F800076128E /* Debug */,
+				AA1132B91BDF2F800076128E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1132BA1BDF2F800076128E /* Build configuration list for PBXNativeTarget "flatnoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1132BB1BDF2F800076128E /* Debug */,
+				AA1132BC1BDF2F800076128E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1132BD1BDF2F800076128E /* Build configuration list for PBXNativeTarget "flatnoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1132BE1BDF2F800076128E /* Debug */,
+				AA1132BF1BDF2F800076128E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA1132961BDF2F800076128E /* flatnote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA1132971BDF2F800076128E /* flatnote.xcdatamodel */,
+			);
+			currentVersion = AA1132971BDF2F800076128E /* flatnote.xcdatamodel */;
+			path = flatnote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA1132841BDF2F800076128E /* Project object */;
+}
